@@ -1,5 +1,29 @@
-.Navbar__content{
-width: 20vw;
-background-color: aqua;
-height: 20vh;
+.navbar {
+  display: flex;
+  width: 100%;
+  height: 10vh;
+  justify-content: center;
+}
+
+.Navbar__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 47vw;
+  height: 10vh;
+  color: white;
+  margin-top: 2px;
+}
+
+.Navbar__h1 {
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  width: 12vw;
+  height: 4vh;
+  border-bottom: 1.5px solid #016331;
+}
+.Navbar__logo {
+  letter-spacing: 2px;
+  font-size: 35px;
 }
