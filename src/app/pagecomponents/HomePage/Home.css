@@ -16,3 +16,7 @@
 .Home__headline span {
   color: #016331;
 }
+
+video{
+  z-index: 99;
+}
