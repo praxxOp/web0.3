@@ -1,4 +1,4 @@
-import { Michroma } from "next/font/google";
+import { Michroma, Syncopate } from "next/font/google";
 import localFont from "next/font/local";
 
 export const michroma = Michroma({
@@ -12,3 +12,8 @@ export const nico = localFont({
   display: "swap",
 });
 
+export const syncopate = Syncopate({
+  subsets: ["latin"],
+  weight: "400",
+  display: "swap",
+});
