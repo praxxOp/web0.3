@@ -1,0 +1,70 @@
+.main__nft {
+  min-height: 100vh;
+  width: 100%;
+}
+.nft__arts {
+  display: flex;
+  justify-content: space-evenly;
+  height: 70vh;
+}
+
+.nft__arts video {
+  width: 32vw;
+  height: 80vh;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.art__right {
+  margin-left: -25vw;
+  width: 22vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.art__right h1 {
+  margin-bottom: 7px;
+  font-size: 50px;
+  margin-left: 4rem;
+}
+.art__right p {
+  margin-left: 4rem;
+}
+
+.nft__characters {
+  display: flex;
+  justify-content: space-evenly;
+  height: 70vh;
+  position: relative;
+}
+.reusable__element1 {
+  position: absolute;
+  right: 15%;
+  top: -15%;
+}
+.character__left {
+  width: 18vw;
+  display: flex;
+  justify-content: center;
+  height: 70vh;
+  flex-direction: column;
+  margin-right: -25vw;
+}
+.nft__characters video {
+  width: 32vw;
+  height: 80vh;
+  overflow: hidden;
+  object-fit: cover;
+  margin-top: 10px;
+}
+
+.character__left h1 {
+  margin-right: 32vw;
+  text-transform: uppercase;
+  z-index: 1;
+  font-size: 50px;
+  margin-left: -15rem;
+}
+.character__left p {
+  width: 15vw;
+}
