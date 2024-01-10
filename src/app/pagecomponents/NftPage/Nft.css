@@ -68,3 +68,42 @@
 .character__left p {
   width: 15vw;
 }
+
+.main__photo {
+  position: relative;
+}
+.nft__photos {
+  display: flex;
+  justify-content: space-evenly;
+  height: 90vh;
+}
+.nft__photos video {
+  width: 32vw;
+  height: 80vh;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.photo__right {
+  margin-left: -25vw;
+  width: 22vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.photo__right h1 {
+  margin-bottom: 7px;
+  font-size: 50px;
+  margin-left: 4rem;
+  text-transform: uppercase;
+}
+
+.photo__right p {
+  margin-left: 4rem;
+}
+
+.reusable__element2 {
+  position: absolute;
+  bottom: 3.5%;
+  left: 17%;
+}

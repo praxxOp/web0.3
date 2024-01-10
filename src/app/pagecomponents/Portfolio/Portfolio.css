@@ -1,0 +1,19 @@
+.main__portfolio {
+  height: 40vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #0c0b0b;
+  justify-content: center;
+}
+
+.main__portfolio p {
+  width: 40vw;
+  height: 18vh;
+  margin-bottom: 5px;
+}
+.main__portfolio h1 {
+  text-transform: uppercase;
+  font-size: 20px;
+}

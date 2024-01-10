@@ -37,18 +37,23 @@ const Nft = () => {
           </div>
           <video src="./bakki.mp4" autoPlay loop muted />
         </div>
-        
-        <div className="nft__photos">
-          <video src="./nature.mp4" autoPlay loop muted />
-          <h1>photo's</h1>
-          <p>
-            "Discover the art of photographers through NFTs - Own, trade, and
-            treasure unique visual masterpieces. Experience the world through
-            the lens of talented photographers with our exclusive NFT
-            collection."
-          </p>
+        <div className="main__photo">
+          <div className="nft__photos">
+            <video src="./nature.mp4" autoPlay loop muted />
+            <div className="photo__right">
+              <h1 className={delaGothicOne.className}>photo's</h1>
+              <p className={sora.className}>
+                "Discover the art of photographers through NFTs - Own, trade,
+                and treasure unique visual masterpieces. Experience the world
+                through the lens of talented photographers with our exclusive
+                NFT collection."
+              </p>
+            </div>
+          </div>
+          <diFv className="reusable__element2">
+          <Web3  />
+          </diFv>
         </div>
-        <Web3 />
       </div>
     </>
   );

@@ -1,0 +1,24 @@
+.main__commmunity {
+  height: 100vh;
+  width: 100%;
+}
+
+.community__rightmain {
+  display: flex;
+  justify-content: flex-end;
+  height: 100vh;
+  width: 100%;
+}
+
+.community__right {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  background-color: aqua;
+  justify-content: center;
+}
+
+.first_p {
+  margin-bottom: 18vh;
+}
