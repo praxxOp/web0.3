@@ -1,13 +1,25 @@
 .main__commmunity {
   height: 100vh;
   width: 100%;
+  display: flex;
 }
 
-.community__rightmain {
+.community__left {
+  height: 100%;
+  width: 50%;
   display: flex;
-  justify-content: flex-end;
-  height: 100vh;
-  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.community__left h1 {
+  text-transform: uppercase;
+  font-size: 5.5rem;
+  font-weight: 500;
+  color: #016331;
+}
+.community__left h1 span{
+  color: white;
 }
 
 .community__right {
@@ -15,10 +27,22 @@
   display: flex;
   flex-direction: column;
   width: 50%;
-  background-color: aqua;
   justify-content: center;
 }
 
 .first_p {
   margin-bottom: 18vh;
+  width: 80%;
+}
+
+.second_p {
+  margin-bottom: 20px;
+  width: 80%;
+}
+
+.community__right h1 {
+  width: 14vw;
+  height: 4vh;
+  border-bottom: 1.5px solid #016331;
+  font-size: 18px;
 }

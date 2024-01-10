@@ -27,7 +27,7 @@ const Nft = () => {
             <Web3 />
           </div>
           <div className="character__left">
-            <h1 className={delaGothicOne.className}>characters</h1>
+            <h1 className={delaGothicOne.className}>character's</h1>
             <p className={sora.className}>
               "Explore a world of collectible digital art with Anime Characters
               NFTs - where your favorite characters come to life on the
@@ -50,9 +50,9 @@ const Nft = () => {
               </p>
             </div>
           </div>
-          <diFv className="reusable__element2">
+          <div className="reusable__element2">
           <Web3  />
-          </diFv>
+          </div>
         </div>
       </div>
     </>

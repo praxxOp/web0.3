@@ -26,6 +26,7 @@
   margin-bottom: 7px;
   font-size: 50px;
   margin-left: 4rem;
+  color: #3FE891;
 }
 .art__right p {
   margin-left: 4rem;
@@ -64,6 +65,7 @@
   z-index: 1;
   font-size: 50px;
   margin-left: -15rem;
+  color: #3FE891;
 }
 .character__left p {
   width: 15vw;
@@ -96,6 +98,7 @@
   font-size: 50px;
   margin-left: 4rem;
   text-transform: uppercase;
+  color: #3FE891;
 }
 
 .photo__right p {
