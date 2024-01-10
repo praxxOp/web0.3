@@ -51,7 +51,7 @@ const Nft = () => {
             </div>
           </div>
           <div className="reusable__element2">
-          <Web3  />
+            <Web3 />
           </div>
         </div>
       </div>

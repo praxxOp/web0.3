@@ -7,8 +7,13 @@ const Community = () => {
     <div className="main__commmunity">
       <div className="community__left">
         <h1 className={tourney.className}>
-          Sell NFTs <br /> <span> Easily and <br />
-          Securely </span> <br /> Online.
+          Sell NFTs <br />{" "}
+          <span>
+            {" "}
+            Easily and <br />
+            Securely{" "}
+          </span>{" "}
+          <br /> Online.
         </h1>
       </div>
 

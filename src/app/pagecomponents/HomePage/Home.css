@@ -2,7 +2,6 @@
   height: 90vh;
   width: 100%;
   display: flex;
-  
 }
 
 .Home__left {
@@ -61,7 +60,7 @@
   color: #016331;
 }
 
-.Home__right h4{
+.Home__right h4 {
   margin-top: 10px;
   border-bottom: 1.5px solid #016331;
   width: 7.5rem;

@@ -30,11 +30,15 @@ const Home = () => {
         <p className={sora.className}>
           "Explore Web3's world where you can seamlessly connect, buy, and sell
           NFTs, while enjoying secure, blockchain-backed transactions through
-          your crypto wallet. <span> Our user-friendly platform ensures data
-          immutability with minimal gas prices, making it the ideal gateway to
-          the future of digital assets."</span>
+          your crypto wallet.{" "}
+          <span>
+            {" "}
+            Our user-friendly platform ensures data immutability with minimal
+            gas prices, making it the ideal gateway to the future of digital
+            assets."
+          </span>
         </p>
-        <h4 className = {` ${michroma.className}  `}>Get Started</h4>
+        <h4 className={` ${michroma.className}  `}>Get Started</h4>
       </div>
     </div>
   );

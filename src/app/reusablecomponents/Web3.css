@@ -3,11 +3,9 @@
   height: 30vh;
   display: flex;
   flex-direction: column;
-  
 }
 .web__content {
   font-size: 38px;
   line-height: 41px;
   letter-spacing: 1px;
-  
 }
