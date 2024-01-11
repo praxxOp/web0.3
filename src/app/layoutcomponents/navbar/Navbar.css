@@ -49,6 +49,7 @@
 
 .access__options h4 {
   font-size: 14px;
+  cursor: pointer;
 }
 
 .buy__options {
@@ -67,4 +68,5 @@
 }
 .buy__options h4 {
   font-size: 14px;
+  cursor: pointer;
 }
