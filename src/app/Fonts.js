@@ -1,10 +1,4 @@
-import {
-  Michroma,
-  Syncopate,
-  Dela_Gothic_One,
-  Sora,
-  Tourney,
-} from "next/font/google";
+import { Michroma, Syncopate, Sora, Tourney } from "next/font/google";
 import localFont from "next/font/local";
 
 export const michroma = Michroma({
@@ -24,10 +18,10 @@ export const syncopate = Syncopate({
   display: "swap",
 });
 
-export const delaGothicOne = Dela_Gothic_One({
-  subsets: ["latin"],
-  display: "swap",
+export const delaGothicOne = localFont({
+  src: "./webfonts_Nico-Moji/DelaGothicOne-Regular.ttf",
   weight: "400",
+  display: "swap",
 });
 
 export const sora = Sora({
