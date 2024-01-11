@@ -36,9 +36,12 @@
   margin-top: -30vh;
   text-transform: uppercase;
   font-size: 6.2rem;
+  
 }
 .Home__mid p {
   width: 65vw;
+  height: 5vh;
+  
 }
 
 .Home__right {
