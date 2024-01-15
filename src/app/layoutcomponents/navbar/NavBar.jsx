@@ -38,8 +38,8 @@ const NavBar = () => {
           BUY & SELL
           {BuyToggle ? (
             <div className="buy__options">
-              <h4>Marketplace </h4>
               <h4>Catalogue</h4>
+              <h4>Marketplace </h4>
               <h4>Community</h4>
             </div>
           ) : null}

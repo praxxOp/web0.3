@@ -1,0 +1,37 @@
+.main__catalogue {
+  height: 90vh;
+  width: 100%;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+.catalogue__top {
+  height: 30vh;
+  width: 100%;
+}
+
+.top__heading {
+  background: linear-gradient(
+    90deg,
+    #4d871f 1.02%,
+    rgba(182, 33, 195, 0.78) 40.98%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  height: fit-content;
+  width: fit-content;
+}
+
+.top__para {
+  font-size: 14.5px;
+  height: fit-content;
+  width: fit-content;
+  margin-top: 8px;
+}
+
+.top__collection {
+  font-size: 30px;
+  color: #e9b278;
+  margin-top: 5px;
+}
