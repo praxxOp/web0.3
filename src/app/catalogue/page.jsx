@@ -42,7 +42,9 @@ const page = () => {
             </div>
           </div>
         </div>
-        <h5 className={`${sora.className} side__headline`}>Global Community, Local Impact</h5>
+        <h5 className={`${sora.className} side__headline`}>
+          Global Community, Local Impact
+        </h5>
       </div>
     </div>
   );
