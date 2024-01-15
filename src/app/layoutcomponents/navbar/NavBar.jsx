@@ -30,7 +30,7 @@ const NavBar = () => {
             </div>
           ) : null}
         </h4>
-        <h1 className={`${nico.className} Navbar__logo`}>WEB3</h1>
+        <h1 className={`${nico.className} Navbar__logo href="#home"`}>WEB3</h1>
         <h4
           onClick={SecondToggle}
           className={` ${michroma.className} Navbar__h1 `}
