@@ -11,7 +11,7 @@ const MarketPlace = () => {
         </video>
       </div>
       <div className="content__marketplace">
-        <h1 className={michroma.className}>UNDER</h1>
+        <h1 className={`${michroma.className} under__h1`}>UNDER</h1>
         <h1 className={delaGothicOne.className}>CONSTRUCTION</h1>
         <p className={sora.className}>
           Get ready for a game-changing NFT marketplace! We're currently under

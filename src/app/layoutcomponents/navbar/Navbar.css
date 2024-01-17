@@ -4,6 +4,7 @@
   height: 10vh;
   justify-content: center;
   position: relative;
+  z-index: 99;
 }
 
 .Navbar__content {

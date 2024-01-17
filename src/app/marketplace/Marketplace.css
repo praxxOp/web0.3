@@ -23,9 +23,29 @@
 
 .content__marketplace {
   position: absolute;
-  z-index: 1;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+  line-height: 1;
+}
+
+.under__h1 {
+  font-size: 5rem;
+  color: #f4bc87;
+}
+
+.content__marketplace h1:nth-child(2) {
+  font-size: 5rem;
+}
+
+.content__marketplace p {
+  font-size: 13px;
+  margin-top: 20px;
+}
+.content__marketplace h3 {
+  font-size: 1.5rem;
+  margin-top: 20px;
+  color: #e7c3a2;
+  cursor: pointer;
 }
