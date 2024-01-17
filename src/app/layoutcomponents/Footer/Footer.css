@@ -16,6 +16,7 @@
 
 .link__gmail h1 {
   margin-bottom: 15px;
+  font-size: 20px;
 }
 
 .social__links {
@@ -23,6 +24,10 @@
   flex-direction: column;
   height: 25vh;
   justify-content: space-evenly;
+}
+
+.link__socials h1 {
+  font-size: 20px;
 }
 
 .social__links a {
@@ -40,4 +45,8 @@
   text-decoration: none;
   color: white;
   margin-top: 20px;
+}
+
+.link__explore h1 {
+  font-size: 20px;
 }
