@@ -54,6 +54,7 @@
   padding: 0 30px;
   border-radius: 20px;
   text-transform: uppercase;
+  cursor: pointer;
 }
 
 .border__line {

@@ -1,5 +1,8 @@
+"use client";
+
 import Web3 from "@/app/reusablecomponents/Web3";
 import React from "react";
+import { motion } from "framer-motion";
 
 import { michroma, syncopate, delaGothicOne, sora } from "../../Fonts";
 import "./Home.css";
@@ -7,7 +10,22 @@ import "./Home.css";
 const Home = () => {
   return (
     <div className="Home__main">
-      <div className="Home__left">
+      <motion.div
+        animate={{
+          x: "100px",
+          
+          
+        }}
+        transition={{
+          duration: 1,
+          type: "spring",
+          repeat: Infinity,
+          repeatType: "reverse",
+          repeatDelay : 1,
+         
+        }}
+        className="Home__left"
+      >
         <h3 className={`${syncopate.className} Home__headline`}>
           <span>
             "Web3: Unlock NFTs, <br /> Secure <br />
@@ -15,7 +33,7 @@ const Home = () => {
           Transactions”
         </h3>
         <Web3 />
-      </div>
+      </motion.div>
       <div className="Home__mid">
         <video autoPlay loop muted>
           <source src="/1Kte.mp4" type="video/mp4" />
@@ -30,9 +48,8 @@ const Home = () => {
         <p className={sora.className}>
           "Explore Web3's world where you can seamlessly connect, buy, and sell
           NFTs, while enjoying secure, blockchain-backed transactions through
-          your crypto wallet.{" "}
+          your crypto wallet.
           <span>
-            {" "}
             Our user-friendly platform ensures data immutability with minimal
             gas prices, making it the ideal gateway to the future of digital
             assets."
