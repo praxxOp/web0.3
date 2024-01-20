@@ -11,18 +11,17 @@ const Home = () => {
   return (
     <div className="Home__main">
       <motion.div
-        animate={{
+        initial={{
           x: "100px",
-          
-          
+          opacity: 0.2,
+        }}
+        animate={{
+          x: "0px",
+          opacity: 1,
         }}
         transition={{
-          duration: 1,
+          duration: 1.5,
           type: "spring",
-          repeat: Infinity,
-          repeatType: "reverse",
-          repeatDelay : 1,
-         
         }}
         className="Home__left"
       >
@@ -38,13 +37,44 @@ const Home = () => {
         <video autoPlay loop muted>
           <source src="/1Kte.mp4" type="video/mp4" />
         </video>
-        <h1 className={delaGothicOne.className}>Resolvent</h1>
+        <div className="main__headline">
+          <motion.div
+            animate={{
+              y: "-150px",
+            }}
+            transition={{
+              type: "spring",
+              bounce: 0.5,
+              duration: 2,
+              repeat: Infinity,
+              repeatType: "loop",
+            }}
+            className="moment__h1"
+          >
+            <h1 className={delaGothicOne.className}>Resolvent</h1>
+            <h1 className={delaGothicOne.className}>Resolvent</h1>
+          </motion.div>
+        </div>
         <p className={sora.className}>
           "Resolvent: Where scarcity meets solution, empowering collectors with
           access to unique digital treasures."
         </p>
       </div>
-      <div className="Home__right">
+      <motion.div
+        initial={{
+          x: "-100px",
+          opacity: 0.2,
+        }}
+        animate={{
+          x: "0px",
+          opacity: 1,
+        }}
+        transition={{
+          duration: 1.5,
+          type: "spring",
+        }}
+        className="Home__right"
+      >
         <p className={sora.className}>
           "Explore Web3's world where you can seamlessly connect, buy, and sell
           NFTs, while enjoying secure, blockchain-backed transactions through
@@ -56,7 +86,7 @@ const Home = () => {
           </span>
         </p>
         <h4 className={` ${michroma.className}  `}>Get Started</h4>
-      </div>
+      </motion.div>
     </div>
   );
 };
