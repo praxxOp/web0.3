@@ -19,6 +19,10 @@ const Nft = () => {
               x: "0",
             }}
             transition={{ duration: 3 }}
+            viewport={{
+              margin: "-200px ",
+              once: true,
+            }}
             autoPlay
             loop
             muted
@@ -85,6 +89,10 @@ const Nft = () => {
               x: "0",
             }}
             transition={{ duration: 3 }}
+            viewport={{
+              margin: "-200px ",
+              once: true,
+            }}
             src="./bakki.mp4"
             autoPlay
             loop
@@ -103,6 +111,10 @@ const Nft = () => {
                 x: "0",
               }}
               transition={{ duration: 3 }}
+              viewport={{
+                margin: "-200px ",
+                once: true,
+              }}
               src="./nature.mp4"
               autoPlay
               loop

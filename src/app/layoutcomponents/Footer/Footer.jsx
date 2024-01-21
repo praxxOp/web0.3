@@ -1,9 +1,22 @@
+"use client";
 import React from "react";
 import "./Footer.css";
 import { delaGothicOne, michroma, sora } from "@/app/Fonts";
+import { motion } from "framer-motion";
 const Footer = () => {
   return (
-    <div className="main__footer">
+    <motion.div
+      initial={{
+        y: "20px",
+        opacity: 0,
+      }}
+      whileInView={{
+        y: "0",
+        opacity: 1,
+      }}
+      transition={{ duration: 1 }}
+      className="main__footer"
+    >
       <p className={sora.className}>
         For collaboration inquiries or work opportunities, feel free to contact
         me through,{" "}
@@ -36,7 +49,7 @@ const Footer = () => {
       <p className={sora.className}>
         © WEB3 INDIA LTD, 2023. ALL RIGHTS RESERVED
       </p>
-    </div>
+    </motion.div>
   );
 };
 

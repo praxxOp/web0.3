@@ -4,6 +4,7 @@ import React, { useState } from "react";
 import "./Navbar.css";
 import { michroma, nico } from "../../Fonts";
 
+
 const NavBar = () => {
   const [Toggle, setToggle] = useState(false);
   const FirstToggle = () => {
