@@ -42,6 +42,7 @@
   position: absolute;
   right: 15%;
   top: -15%;
+  z-index: 1;
 }
 .character__left {
   width: 18vw;

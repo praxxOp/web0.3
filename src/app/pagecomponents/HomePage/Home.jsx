@@ -3,7 +3,6 @@
 import Web3 from "@/app/reusablecomponents/Web3";
 import React from "react";
 import { motion } from "framer-motion";
-
 import { michroma, syncopate, delaGothicOne, sora } from "../../Fonts";
 import "./Home.css";
 
@@ -45,7 +44,7 @@ const Home = () => {
             transition={{
               type: "spring",
               bounce: 0.5,
-              duration: 2,
+              duration: 4,
               repeat: Infinity,
               repeatType: "loop",
             }}
@@ -55,10 +54,21 @@ const Home = () => {
             <h1 className={delaGothicOne.className}>Resolvent</h1>
           </motion.div>
         </div>
-        <p className={sora.className}>
+        <motion.p
+          initial={{
+            opacity: 0,
+          }}
+          animate={{
+            opacity: 1,
+          }}
+          transition={{
+            duration: 1,
+          }}
+          className={sora.className}
+        >
           "Resolvent: Where scarcity meets solution, empowering collectors with
           access to unique digital treasures."
-        </p>
+        </motion.p>
       </div>
       <motion.div
         initial={{
