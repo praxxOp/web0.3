@@ -4,7 +4,8 @@
   height: 10vh;
   justify-content: center;
   position: relative;
-  z-index: 99;
+  z-index: 2;
+  
 }
 
 .Navbar__content {
@@ -16,6 +17,7 @@
   color: white;
   margin-top: 2px;
   cursor: pointer;
+  
 }
 
 .Navbar__h1 {
@@ -27,6 +29,7 @@
   height: 4vh;
   margin-bottom: 10px;
   border-bottom: 1.5px solid #016331;
+  
 }
 
 .Navbar__logo {
@@ -43,7 +46,7 @@
   justify-content: space-evenly;
   bottom: -160%;
   align-items: center;
-  color: #3fe891;
+  color: white;
   border-radius: 10px;
   background-color: rgba(51, 51, 51, 0.986);
 }
@@ -62,9 +65,10 @@
   justify-content: space-evenly;
   bottom: -180%;
   align-items: center;
-  color: #3fe891;
+  color: white;
   border-radius: 10px;
   background-color: rgba(51, 51, 51, 0.986);
+  
 }
 .buy__options h4 {
   font-size: 14px;
