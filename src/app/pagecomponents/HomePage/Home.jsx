@@ -1,5 +1,5 @@
 "use client";
-
+import Link from "next/link";
 import Web3 from "@/app/reusablecomponents/Web3";
 import React from "react";
 import { motion } from "framer-motion";
@@ -95,7 +95,7 @@ const Home = () => {
             assets."
           </span>
         </p>
-        <h4 className={` ${michroma.className}  `}>Get Started</h4>
+       <Link  className="homelink__style" href="/catalogue" > <h4 className={` ${michroma.className}  `}>Get Started</h4></Link>
       </motion.div>
     </div>
   );

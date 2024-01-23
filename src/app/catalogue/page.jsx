@@ -2,6 +2,7 @@ import React from "react";
 import "./catalogue.css";
 import { delaGothicOne, michroma, sora } from "../Fonts";
 import Web3 from "../reusablecomponents/Web3";
+
 const page = () => {
   return (
     <div>
@@ -33,6 +34,7 @@ const page = () => {
             <hr className="border__line" />
             <h4>PHOTO'S</h4>
           </div>
+
           <div className="bottom__reusablecomponents">
             <div className="bottom__reusablecomponents1">
               <Web3 />

@@ -2,8 +2,9 @@
 import React from "react";
 import "./Nft.css";
 import Web3 from "@/app/reusablecomponents/Web3";
-import { delaGothicOne, sora } from "@/app/Fonts";
+import { delaGothicOne, michroma, sora } from "@/app/Fonts";
 import { motion } from "framer-motion";
+import Link from "next/link";
 const Nft = () => {
   return (
     <>
@@ -141,6 +142,13 @@ const Nft = () => {
                 through the lens of talented photographers with our exclusive
                 NFT collection."
               </p>
+              <Link
+                className={` ${michroma.className} Nftlink__style`}
+                href="/marketplace"
+              >
+                {" "}
+                Explore
+              </Link>
             </div>
           </div>
           <div className="reusable__element2">

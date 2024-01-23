@@ -104,7 +104,18 @@
 
 .photo__right p {
   margin-left: 4rem;
+  
 }
+.Nftlink__style{
+  text-decoration: none;
+  margin-left: 4rem;
+  font-size: 20px;
+  margin-top: 20px;
+  border-bottom: 1.5px solid #016331;
+  color: aliceblue;
+  width: fit-content;
+}
+
 
 .reusable__element2 {
   position: absolute;

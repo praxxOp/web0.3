@@ -71,8 +71,11 @@
 .Home__right p span {
   color: #016331;
 }
-
+.homelink__style{
+  text-decoration: none;
+}
 .Home__right h4 {
+  color: aliceblue;
   margin-top: 10px;
   border-bottom: 1.5px solid #016331;
   width: 7.5rem;

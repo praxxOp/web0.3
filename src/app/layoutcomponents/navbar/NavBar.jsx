@@ -1,5 +1,5 @@
 "use client";
-
+import Link from "next/link";
 import React, { useState } from "react";
 import "./Navbar.css";
 import { michroma, nico } from "../../Fonts";
@@ -51,15 +51,17 @@ const NavBar = () => {
                 }}
                 className="access__options"
               >
+                <Link className="link__style" href="/">
                 <h4>
                   Sign-IN With <br />
                   Google
                 </h4>
+                </Link>
               </motion.div>
             ) : null}
           </AnimatePresence>
         </h4>
-        <h1 className={`${nico.className} Navbar__logo href="#home"`}>WEB3</h1>
+        <Link className="link__style" href="/"> <h1 className={`${nico.className} Navbar__logo `}>WEB3</h1></Link>
         <h4
           onClick={SecondToggle}
           className={` ${michroma.className} Navbar__h1 `}
@@ -77,9 +79,9 @@ const NavBar = () => {
                 }}
                 className="buy__options"
               >
-                <h4>Catalogue</h4>
-                <h4>Marketplace </h4>
-                <h4>Community</h4>
+                <Link className="link__style" href="/catalogue"><h4>Catalogue</h4></Link>
+                <Link className="link__style" href="/marketplace"><h4>Marketplace </h4> </Link>
+                
               </motion.div>
             ) : null}
           </AnimatePresence>

@@ -56,7 +56,10 @@
   text-transform: uppercase;
   cursor: pointer;
 }
-
+.bottom__box h4:hover{
+color: #1ba550;
+font-size: large;
+}
 .border__line {
   border: 0.8px solid #00ff7d;
 }
