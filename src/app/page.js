@@ -6,7 +6,7 @@ import Community from "./pagecomponents/CommunityPage/Community";
 
 const page = () => {
   return (
-    <div>
+    <div style={{scrollBehavior: "smooth"}}>
       <Home />
       <Nft />
       <Portfolio />
